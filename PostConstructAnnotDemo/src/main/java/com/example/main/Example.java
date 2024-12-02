@@ -10,5 +10,7 @@ public class Example {
         Vehicle vehicle = context.getBean(Vehicle.class);
         System.out.println("Vehicle name : "+vehicle.getName());
         vehicle.printHello("UK");
+
+        context.close();
     }
 }
