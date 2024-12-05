@@ -1,4 +1,4 @@
-package org.example.autowiredannotdemo;
+package org.example.autowiredannotongetdemo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -12,7 +12,6 @@ public class Person {
 
     private String name;
 
-    @Autowired
     private Vehicle vehicle;
 
     public String getName() {
@@ -27,6 +26,7 @@ public class Person {
         return vehicle;
     }
 
+    @Autowired
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }

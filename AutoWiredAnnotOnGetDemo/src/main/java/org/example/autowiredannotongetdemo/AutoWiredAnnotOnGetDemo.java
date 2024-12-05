@@ -1,10 +1,10 @@
-package org.example.autowiredannotdemo;
+package org.example.autowiredannotongetdemo;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 
-public class AutoWiredAnnotDemo {
+public class AutoWiredAnnotOnGetDemo {
 
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(ProjectConfig.class);

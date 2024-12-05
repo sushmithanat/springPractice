@@ -1,4 +1,4 @@
-package org.example.autowiredannotdemo;
+package org.example.autowiredannotongetdemo;
 
 import org.springframework.stereotype.Component;
 
